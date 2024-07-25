@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopsy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="/LOGO.png" alt="">
+            <h1>Shopsy</h1>
+        </div>
+        <div class="header-center search-container">
+            <button class="category-button" onclick="filterProducts('All')" data-category="All">Home</button>
+            <button class="category-button" onclick="filterProducts('Men')" data-category="Men">Men</button>
+            <button class="category-button" onclick="filterProducts('Women')" data-category="Women">Women</button>
+            <button class="category-button" onclick="filterProducts('Kids')" data-category="Kids">Kids</button>
+            <input type="text" id="search" placeholder="Search Products Here.....">
+            <button onclick="searchProducts()">Search</button>
+          </div>
+          
+          
+        <div class="header-right">
+           <!-- In your header section -->
+        <div class="cart-logo">
+            <a href="cart.html">        
+<i class="fa fa-shopping-cart" style="font-size:48px;"></i>
+            <span id="cart-count">0</span>
+            </a>
+        </div>
+
+            
+        
+        </div>
+    </header>
+    <div id="products"></div>
+    <script src="script.js"></script>
+</body>
+</html>
