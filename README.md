@@ -1,1 +1,1 @@
-# Shopify – E-Commerce Shopping Website
+# Shopsy – E-Commerce Shopping Website
